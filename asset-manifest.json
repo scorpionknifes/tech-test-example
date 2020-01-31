@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tech-test-example/static/css/main.814b4578.chunk.css",
+    "main.js": "/tech-test-example/static/js/main.9010d86c.chunk.js",
+    "main.js.map": "/tech-test-example/static/js/main.9010d86c.chunk.js.map",
+    "runtime-main.js": "/tech-test-example/static/js/runtime-main.31be3ff0.js",
+    "runtime-main.js.map": "/tech-test-example/static/js/runtime-main.31be3ff0.js.map",
+    "static/js/2.2340a7fd.chunk.js": "/tech-test-example/static/js/2.2340a7fd.chunk.js",
+    "static/js/2.2340a7fd.chunk.js.map": "/tech-test-example/static/js/2.2340a7fd.chunk.js.map",
+    "index.html": "/tech-test-example/index.html",
+    "precache-manifest.bfa3cbb894be1d7daf8acc377e40b518.js": "/tech-test-example/precache-manifest.bfa3cbb894be1d7daf8acc377e40b518.js",
+    "service-worker.js": "/tech-test-example/service-worker.js",
+    "static/css/main.814b4578.chunk.css.map": "/tech-test-example/static/css/main.814b4578.chunk.css.map",
+    "static/js/2.2340a7fd.chunk.js.LICENSE.txt": "/tech-test-example/static/js/2.2340a7fd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31be3ff0.js",
+    "static/js/2.2340a7fd.chunk.js",
+    "static/css/main.814b4578.chunk.css",
+    "static/js/main.9010d86c.chunk.js"
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AACA,WACI,gBAAiB,CACjB,eAAgB,CAChB,aACJ,CAEA,cACI,iBACJ","file":"main.814b4578.chunk.css","sourcesContent":["\r\n.container {\r\n    max-width: 1000px;\r\n    min-width: 700px;\r\n    padding: 100px;\r\n}\r\n\r\n.form-control {\r\n    text-align: center;\r\n}"]}
