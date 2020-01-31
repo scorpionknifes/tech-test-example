@@ -1,7 +1,9 @@
 
 ### Tech test
 
-NOTE: React Hooks and Context was used instead of REDUX
+https://scorpionknifes.github.io/tech-test-example/
+
+NOTE: React Hooks and Context was used instead of REDUX. react-bootstrap was used for simplicity
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
