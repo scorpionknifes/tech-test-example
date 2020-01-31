@@ -4,6 +4,7 @@ import App from './App';
 import './index.css';
 import { Provider } from './Context';
 
+// Provider for React Context
 ReactDOM.render(
     <Provider>
         <App />

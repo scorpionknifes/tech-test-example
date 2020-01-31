@@ -1,3 +1,8 @@
+
+### Tech test
+
+NOTE: React Hooks and Context was used instead of REDUX
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

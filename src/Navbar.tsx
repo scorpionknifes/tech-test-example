@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import { Nav } from 'react-bootstrap'
 import { Context } from './Context'
 
+
+//Navigation Bar on the top
 const Navbar = () => {
     const {setPage} = useContext(Context)
     return (
