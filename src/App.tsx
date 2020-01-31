@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Navbar from './Navbar'
 import Generate from './Generate'
-import { Container } from 'react-bootstrap'
+import { Context } from './Context';
+import Saved from './Saved';
 
 const App = () => {
+  const {page} = useContext(Context)
   return (
     <>
       <Navbar />
-      <Generate />
+      {page === "generate" ? <Generate />: <Saved/>}
     </>
   );
 }

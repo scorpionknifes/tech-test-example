@@ -1,21 +1,10 @@
-html {
-    height: 100%;
-    width: 100%;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-}
-
-#root {
-    height: 100%;
-    width: 100%;
-}
 
 .container {
-    height: 100%;
-    width: 100%;
     max-width: 1000px;
     min-width: 700px;
+    padding: 100px;
+}
+
+.form-control {
+    text-align: center;
 }

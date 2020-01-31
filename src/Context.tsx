@@ -1,9 +1,30 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 
-interface AppContextInterface {
-    name: string,
-    author: string,
-    url: string
+interface IContext {
+    page: string,
+    setPage: React.Dispatch<React.SetStateAction<string>>,
+    data: string[][],
+    setData(data: string[][]): any,
 }
 
-export const { Provider, Consumer } = createContext<AppContextInterface| null>(null);
+export const Context = createContext({} as IContext);
+
+export function Provider(props: any) {
+    const [page, setPage] = useState<string>("generate")
+    const [data, setLocalData] = useState<string[][]>([])
+
+    useEffect(()=>{
+        setLocalData(JSON.parse(localStorage.getItem("data")|| '[]'))
+    }, [])
+
+    const setData = (data: string[][]) => {
+        localStorage.setItem("data", JSON.stringify(data))
+        setLocalData(data)
+    }
+  return (
+    <Context.Provider value={{
+        page, setPage,
+        data, setData,
+    }}>{props.children}</Context.Provider>
+  );
+}

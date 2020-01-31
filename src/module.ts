@@ -1,5 +1,5 @@
 
-export default function generate5unique(): number[]  {
+export default function generate5unique(): string[]  {
     let pins = new Map()
     while (pins.size < 5){
         let pin = generated4pin()
@@ -10,7 +10,7 @@ export default function generate5unique(): number[]  {
     return Array.from( pins.keys() );
 }
 
-function generated4pin(): number {
+function generated4pin(): string {
     let pin: number[] = [];
     let consecutive = 0
     let positive = 0
@@ -29,7 +29,7 @@ function generated4pin(): number {
             }
         }
     }
-    return pin[0]+pin[1]*10+pin[2]*100+pin[3]*1000
+    return (pin[0]+pin[1]*10+pin[2]*100+pin[3]*1000).toString()
 }
 
 
