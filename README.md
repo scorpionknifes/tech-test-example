@@ -1,5 +1,5 @@
 
-### Tech test
+### Testing out Typescript (a simple test from a friend)
 
 https://scorpionknifes.github.io/tech-test-example/
 
