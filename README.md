@@ -1,7 +1,7 @@
 
 ### Testing out Typescript (a simple test from a friend)
 
-https://scorpionknifes.github.io/tech-test-example/
+https://scorpionknifes.github.io/react-code-test-example/
 
 NOTE: React Hooks and Context was used instead of REDUX. react-bootstrap was used for simplicity
 
